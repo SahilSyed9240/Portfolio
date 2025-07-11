@@ -1,0 +1,393 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   sahil syed portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-gray-900 min-h-screen flex flex-col">
+  <header class="bg-white bg-opacity-90 backdrop-blur-md shadow-md sticky top-0 z-50">
+   <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a class="text-3xl font-extrabold text-gradient bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-700 to-pink-600" href="#">
+    SAHIL SAYYED
+    </a>
+    <nav class="hidden md:flex space-x-8 font-semibold text-pink-700">
+     <a class="hover:text-yellow-400 transition" href="#about">
+      About
+     </a>
+     <a class="hover:text-yellow-400 transition" href="#skills">
+      Skills
+     </a>
+     <a class="hover:text-yellow-400 transition" href="#projects">
+      Projects
+     </a>
+     <a class="hover:text-yellow-400 transition" href="#experience">
+      Experience
+     </a>
+     <a class="hover:text-yellow-400 transition" href="#education">
+      Education
+     </a>
+     <a class="hover:text-yellow-400 transition" href="#contact">
+      Contact
+     </a>
+    </nav>
+    <button class="md:hidden text-pink-700 focus:outline-none" id="menu-btn">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </div>
+   <nav class="hidden md:hidden bg-white bg-opacity-90 backdrop-blur-md shadow-md" id="mobile-menu">
+    <a class="block px-6 py-3 border-b border-pink-300 font-semibold text-pink-700 hover:bg-yellow-300 hover:text-pink-900 transition" href="#about">
+     About
+    </a>
+    <a class="block px-6 py-3 border-b border-pink-300 font-semibold text-pink-700 hover:bg-yellow-300 hover:text-pink-900 transition" href="#skills">
+     Skills
+    </a>
+    <a class="block px-6 py-3 border-b border-pink-300 font-semibold text-pink-700 hover:bg-yellow-300 hover:text-pink-900 transition" href="#projects">
+     Projects
+    </a>
+    <a class="block px-6 py-3 border-b border-pink-300 font-semibold text-pink-700 hover:bg-yellow-300 hover:text-pink-900 transition" href="#experience">
+     Experience
+    </a>
+    <a class="block px-6 py-3 border-b border-pink-300 font-semibold text-pink-700 hover:bg-yellow-300 hover:text-pink-900 transition" href="#education">
+     Education
+    </a>
+    <a class="block px-6 py-3 font-semibold text-pink-700 hover:bg-yellow-300 hover:text-pink-900 transition" href="#contact">
+     Contact
+    </a>
+   </nav>
+  </header>
+  <main class="max-w-7xl mx-auto px-6 py-12 flex-grow">
+   <!-- Hero Section -->
+   <section class="flex flex-col md:flex-row items-center md:items-start md:space-x-12 bg-white bg-opacity-90 rounded-3xl shadow-2xl p-8">
+    <div class="flex-shrink-0 w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-8 border-gradient-to-tr from-pink-500 via-purple-600 to-indigo-700 shadow-lg">
+     <img alt="sahil syed profile pic" class="w-full h-full object-cover" height="224" src="sahilsyedprofilepic.jpg" width="224"/>
+    </div>
+    <div class="mt-8 md:mt-0 max-w-xl text-center md:text-left">
+     <h1 class="text-5xl font-extrabold bg-gradient-to-r from-pink-600 via-purple-700 to-indigo-700 bg-clip-text text-transparent leading-tight">
+      SAHIL SAYYED
+     </h1>
+     <p class="mt-2 text-2xl font-semibold text-pink-700">
+      Data Analyst &amp; Data Scientist
+     </p>
+     <p class="mt-4 text-gray-800 leading-relaxed text-lg">
+      Dynamic and detail-oriented Data Scientist & Data Analyst with a strong background in statistical analysis, machine learning, and big data processing. Skilled in Python, Prob and Stats, SQL and Power Bi with hands-on experience in data visualization, predictive modeling, and business intelligence.
+     <div class="mt-6 flex justify-center md:justify-start space-x-8 text-pink-600 text-3xl">
+      <a aria-label="LinkedIn Profile" class="hover:text-indigo-700 transition" href="https://www.linkedin.com/in/sahil-syed-91243b328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-linkedin">
+       </i>
+      </a>
+      <a aria-label="GitHub Profile" class="hover:text-indigo-700 transition" href="https://github.com/SahilSyed9240" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-github">
+       </i>
+      </a>
+      <a aria-label="Send Email" class="hover:text-indigo-700 transition" href="mailto:sahilsyed3808@gmail.com">
+       <i class="fas fa-envelope">
+       </i>
+      </a>
+      <a aria-label="Twitter Profile" class="hover:text-indigo-700 transition" href="https://x.com/Sahil3556855?t=0b-c5Kj4xI2la8F8L78n3Q&s=09" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-twitter">
+       </i>
+      </a>
+     </div>
+    </div>
+   </section>
+   <!-- About Section -->
+   <section class="mt-20 max-w-4xl mx-auto bg-gradient-to-r from-pink-100 via-purple-100 to-indigo-100 rounded-3xl p-10 shadow-lg" id="about">
+    <h2 class="text-4xl font-extrabold text-pink-700 mb-6 text-center">
+     About Me
+    </h2>
+    <p class="text-gray-900 leading-relaxed text-lg">
+     I am a dedicated data analyst and data scientist analyzing complex datasets, building predictive models, and creating compelling visualizations. My expertise lies in Python, R, SQL, and various machine learning frameworks. I enjoy solving challenging problems and helping organizations make data-driven decisions.
+    </p>
+   </section>
+   <!-- Skills Section -->
+   <section class="mt-20 max-w-5xl mx-auto" id="skills">
+    <!-- <h2 class="text-4xl font-extrabold text-purple-700 mb-10 text-center drop-shadow-lg">
+     Skills
+    </h2> -->
+     <h2 class="text-4xl font-extrabold text-white mb-10 text-center drop-shadow-lg">
+    SKILLS
+</h2>
+
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center">
+     <div class="bg-gradient-to-tr from-pink-400 via-purple-500 to-indigo-600 rounded-xl shadow-lg p-6 flex flex-col items-center text-white transform hover:scale-105 transition">
+      <img alt="Python programming language logo, blue and yellow snake icon" class="mb-4 w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/cf6cbf20-91c2-4c6f-a031-99f5c04855fe.jpg" width="64"/>
+      <h3 class="font-semibold text-lg">
+       Python
+      </h3>
+     </div>
+     <div class="bg-gradient-to-tr from-indigo-400 via-purple-500 to-pink-600 rounded-xl shadow-lg p-6 flex flex-col items-center text-white transform hover:scale-105 transition">
+      <img alt="R programming language logo, blue letter R with a gray background" class="mb-4 w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/91c0c440-1f79-4741-95f2-bf06a9d7e860.jpg" width="64"/>
+      <h3 class="font-semibold text-lg">
+       Prob & Stat
+      </h3>
+     </div>
+     <div class="bg-gradient-to-tr from-pink-400 via-indigo-500 to-purple-600 rounded-xl shadow-lg p-6 flex flex-col items-center text-white transform hover:scale-105 transition">
+      <img alt="SQL database logo, stylized database cylinder icon in blue" class="mb-4 w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/31c2e776-70b6-44db-023b-3aeeff90dc81.jpg" width="64"/>
+      <h3 class="font-semibold text-lg">
+       SQL
+      </h3>
+     </div>
+     <div class="bg-gradient-to-tr from-purple-400 via-pink-500 to-indigo-600 rounded-xl shadow-lg p-6 flex flex-col items-center text-white transform hover:scale-105 transition">
+      <img alt="Tableau data visualization software logo, colorful dots arranged in a grid" class="mb-4 w-16 h-16" height="64" src="dsmlpic.png" width="64"/>
+      <h3 class="font-semibold text-lg">
+       DS (ML)
+      </h3>
+     </div>
+     <div class="bg-gradient-to-tr from-indigo-400 via-pink-500 to-purple-600 rounded-xl shadow-lg p-6 flex flex-col items-center text-white transform hover:scale-105 transition">
+      <img alt="Pandas Python library logo, black and white panda face icon" class="mb-4 w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/52cec60e-b870-4c83-2edb-d4fe7365f053.jpg" width="64"/>
+      <h3 class="font-semibold text-lg">
+       Pandas
+      </h3>
+     </div>
+     <div class="bg-gradient-to-tr from-pink-400 via-indigo-500 to-purple-600 rounded-xl shadow-lg p-6 flex flex-col items-center text-white transform hover:scale-105 transition">
+      <img alt="Scikit-learn machine learning library logo, stylized blue and white icon" class="mb-4 w-16 h-16" height="64" src="advexcel.png" width="64"/>
+      <h3 class="font-semibold text-lg">
+       Adv.Excel
+      </h3>
+     </div>
+     <div class="bg-gradient-to-tr from-purple-400 via-indigo-500 to-pink-600 rounded-xl shadow-lg p-6 flex flex-col items-center text-white transform hover:scale-105 transition">
+      <img alt="TensorFlow machine learning framework logo, orange stylized T icon" class="mb-4 w-16 h-16" height="64" src="aipic.png" width="64"/>
+      <h3 class="font-semibold text-lg">
+       AI (DL)
+      </h3>
+     </div>
+     <div class="bg-gradient-to-tr from-indigo-400 via-pink-500 to-purple-600 rounded-xl shadow-lg p-6 flex flex-col items-center text-white transform hover:scale-105 transition">
+      <img alt="Microsoft Power BI logo, yellow bar chart icon" class="mb-4 w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/ea1f01c2-69c7-4473-a903-67aae0e1f935.jpg" width="64"/>
+      <h3 class="font-semibold text-lg">
+       Power BI
+      </h3>
+     </div>
+    </div>
+   </section>
+   <!-- Projects Section -->
+   <section class="mt-20 max-w-7xl mx-auto" id="projects">
+    <!-- <h2 class="text-4xl font-extrabold text-pink-700 mb-10 text-center drop-shadow-lg">
+     Projects
+    </h2> -->
+ <h2 class="text-4xl font-extrabold text-white mb-10 text-center drop-shadow-lg">
+    PROJECTS
+</h2>
+
+
+    <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+     <article class="bg-gradient-to-tr from-pink-300 via-purple-300 to-indigo-300 rounded-2xl shadow-xl overflow-hidden flex flex-col transform hover:scale-105 transition">
+      <img alt=" Project Amazon E-Commerce SQL Analytics " class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/d8acaa98-236c-40f3-443c-1febcc36d408.jpg" width="600"/>
+      <div class="p-6 flex flex-col flex-grow text-indigo-900">
+       <h3 class="text-2xl font-bold mb-2">
+        Amazon E-Commerce SQL Analytics
+       </h3>
+       <p class="flex-grow">
+        A simulated Amazon-like e-commerce database with 8 relational tables and realistic sample data. <br>
+Includes 30+ advanced SQL queries for sales, inventory, and customer analytics.
+Perfect for showcasing practical SQL skills in a portfolio or GitHub project.
+       </p>
+       <a class="mt-4 inline-flex items-center text-pink-700 hover:text-pink-900 font-semibold" href="https://github.com/SahilSyed9240/Amazon-Sql-project" rel="noopener noreferrer" target="_blank">
+        <i class="fab fa-github mr-2">
+        </i>
+        View Code
+       </a>
+      </div>
+     </article>
+
+     <article class="bg-gradient-to-tr from-indigo-300 via-pink-300 to-purple-300 rounded-2xl shadow-xl overflow-hidden flex flex-col transform hover:scale-105 transition">
+      <img alt="python project" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/c631cfc6-38e5-4ab6-4279-cc727ca96518.jpg" width="600"/>
+      <div class="p-6 flex flex-col flex-grow text-indigo-900">
+       <h3 class="text-2xl font-bold mb-2">
+        python project
+       </h3>
+       <p class="flex-grow">
+        Created interactive dashboards using Tableau and Power BI to visualize sales trends and KPIs, enabling executives to make informed decisions.
+       </p>
+       <a class="mt-4 inline-flex items-center text-pink-700 hover:text-pink-900 font-semibold" href="https://github.com/SahilSyed9240" rel="noopener noreferrer" target="_blank">
+        <i class="fas fa-external-link-alt mr-2">
+        </i>
+        View Dashboard
+       </a>
+      </div>
+     </article>
+    </div>
+   </section>
+   <!-- Experience Section -->
+   <section class="mt-20 max-w-5xl mx-auto bg-gradient-to-r from-pink-100 via-purple-100 to-indigo-100 rounded-3xl p-10 shadow-lg" id="experience">
+    <h2 class="text-4xl font-extrabold text-purple-700 mb-10 text-center drop-shadow-md">
+     Experience
+    </h2>
+    <div class="space-y-10 text-indigo-900">
+     <div>
+      <h3 class="text-2xl font-bold">
+       Logistics Supervisor
+      </h3>
+      <p class="text-pink-700 font-semibold">
+       Amazon
+      </p>
+      <p class="italic mb-2">
+        [2022 - 2024]
+      </p>
+      <ul class="list-disc list-inside space-y-1">
+       <li>
+        Supervised daily logistics operations, including inventory management, order fulfilment, and transportation coordination.
+       </li>
+       <li>
+       Led and trained a team of warehouse associates and delivery personnel to ensure smooth workflow and productivity.
+       </li>
+       <li>
+       Monitored inbound and outbound shipments, ensuring timely and accurate deliveries.
+       <li>Used logistics software and data analysis tools to track performance metrics and streamline operations
+       </li>
+      <li> Key Skills: <br>
+Warehouse & Inventory Management <br>
+1) Team Leadership & Training
+2) Supply Chain Optimization
+3) Shipment Tracking & Route Planning
+4) Data Analysis & Performance Monitoring
+4) Problem-Solving & Decision-Making.
+      </li>
+       </li>
+      </ul>
+     </div>
+
+   </section>
+   <!-- Education Section -->
+   <section class="mt-20 max-w-4xl mx-auto bg-gradient-to-r from-indigo-100 via-pink-100 to-purple-100 rounded-3xl p-10 shadow-lg" id="education">
+    <h2 class="text-4xl font-extrabold text-pink-700 mb-10 text-center drop-shadow-md">
+     Education
+    </h2>
+    <div class="space-y-8 text-indigo-900">
+     <div>
+      <h3 class="text-2xl font-bold">
+       Bachelor of Science (B.Sc.) in Mathematics 
+ 
+
+      </h3>
+      <p class="text-purple-700 font-semibold">
+       Swami Ramanand Teerth Marathwada University, Nanded 
+      </p>
+      <p class="italic">
+       [Completed in 2022]
+      </p>
+      <p class="mt-2">
+       Strong foundation in Calculus, Linear Algebra, Differential Equations, and Real Analysis
+Developed analytical and problem-solving skills through theoretical and applied mathematics
+Experience in statistical analysis, mathematical modelling, and numerical methods
+
+      </p>
+     </div>
+     <div>
+      <h3 class="text-2xl font-bold">
+      Master of Science (M.Sc.) in Mathematics  
+      </h3>
+      <p class="text-purple-700 font-semibold">
+      Yashwantrao Chavan Maharashtra Open University. 
+      
+      </p>
+      <p class="italic">
+      (ACTIVE) 
+      </p>
+      <p class="mt-2">
+      Specialization in Algebra, Real Analysis, Differential Equations <br>
+Strong foundation in Mathematical Modelling, Probability & Statistics, and Numerical Methods <br>
+Developed analytical and problem-solving skill through advanced mathematical concepts <br>
+Independent learning and research experience in applied and pure mathematic.
+      </p>
+     </div>
+     <div>
+      <h3 class="text-2xl font-bold">
+        Post Graduate Diploma Bachelor of Education (B.Ed.) in Mathematics. 
+      </h3>
+      <p class="text-purple-700 font-semibold">
+      Yashwantrao Chavan Maharashtra Open University. 
+      
+      </p>
+      <p class="italic">
+      (ACTIVE) 
+      </p>
+      <p class="mt-2">
+    Developed effective lesson planning, classroom management, and assessment strategies
+Trained in innovative teaching techniques, e-learning tools, and curriculum development
+Practical experience through teaching internships, lesson demonstrations, and student engagement.
+
+      </p>
+     </div>
+
+
+    </div>
+   </section>
+   <!-- Contact Section -->
+   <section class="mt-20 max-w-3xl mx-auto text-center bg-gradient-to-r from-pink-200 via-purple-200 to-indigo-200 rounded-3xl p-10 shadow-lg" id="contact">
+    <h2 class="text-4xl font-extrabold text-pink-700 mb-6 drop-shadow-md">
+     Get In Touch
+    </h2>
+    <p class="text-indigo-900 mb-8 text-lg">
+     Interested in working together or have any questions? Feel free to reach out!
+    </p>
+   
+    <div class="mt-10 flex justify-center space-x-10 text-pink-700 text-4xl">
+     <a aria-label="LinkedIn Profile" class="hover:text-indigo-900 transition" href="https://www.linkedin.com/in/sahil-syed-91243b328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" rel="noopener noreferrer" target="_blank">
+      <i class="fab fa-linkedin">
+      </i>
+     </a>
+     <a aria-label="GitHub Profile" class="hover:text-indigo-900 transition" href="https://github.com/SahilSyed9240" rel="noopener noreferrer" target="_blank">
+      <i class="fab fa-github">
+      </i>
+     </a>
+     <a aria-label="Send Email" class="hover:text-indigo-900 transition" href="mailto:">
+      <i class="fas fa-envelope">
+      </i>
+     </a>
+     <a aria-label="Twitter Profile" class="hover:text-indigo-900 transition" href="https://x.com/Sahil3556855?t=0b-c5Kj4xI2la8F8L78n3Q&s=09" rel="noopener noreferrer" target="_blank">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+    </div>
+   </section>
+  </main>
+
+
+  <!-- <footer class="bg-black text-white py-6 mt-20">
+   <div class="max-w-7xl mx-auto px-6 text-center text-sm select-none">
+     SAHIL SHADUL SAYYED <br> +91 9011062974 <br>
+Palam, Parbhani 431720
+
+   </div>
+</footer> -->
+<footer class="bg-black text-white py-6 mt-20">
+   <div class="max-w-7xl mx-auto px-6 flex justify-between text-sm select-none">
+      <div class="text-left">
+        SAHIL SHADUL SAYYED <br> 
+        Phone +91 9011062974 <br>
+        Palam, Parbhani 431720
+      </div>
+      <div class="text-right">
+         Contact Developer <br>
+         Phone +91 7028122268 <br>
+         vasikhanplm123@gmail.com 
+        
+      </div>
+   </div>
+</footer>
+
+
+
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
